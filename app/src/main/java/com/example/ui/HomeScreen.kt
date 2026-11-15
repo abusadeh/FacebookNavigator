@@ -32,8 +32,6 @@ import androidx.compose.material.icons.filled.Public
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.Share
-import androidx.compose.material.icons.filled.Storefront
-import androidx.compose.material.icons.filled.VideoLibrary
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -104,8 +102,6 @@ fun HomeScreen(
             ShortcutItem("News Feed", "Home stream & posts", Icons.Default.DynamicFeed, CustomTabHelper.FACEBOOK_HOME_URL),
             ShortcutItem("Messages", "Web Messenger chats", Icons.AutoMirrored.Filled.Message, CustomTabHelper.FACEBOOK_MESSAGES_URL),
             ShortcutItem("Notifications", "Recent alerts & activity", Icons.Default.Notifications, CustomTabHelper.FACEBOOK_NOTIFICATIONS_URL),
-            ShortcutItem("Marketplace", "Buy and sell locally", Icons.Default.Storefront, CustomTabHelper.FACEBOOK_MARKETPLACE_URL),
-            ShortcutItem("Videos & Watch", "Live streams & reels", Icons.Default.VideoLibrary, CustomTabHelper.FACEBOOK_WATCH_URL),
             ShortcutItem("Groups", "Communities & clubs", Icons.Default.Groups, CustomTabHelper.FACEBOOK_GROUPS_URL)
         )
     }
